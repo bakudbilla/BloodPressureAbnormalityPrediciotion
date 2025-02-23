@@ -23,10 +23,10 @@ Data can be found https://www.kaggle.com/datasets/pavanbodanki/blood-press
 
 | Training Instance | Optimizer Used | Regularizer Used | Epochs | Early Stopping | Number of Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
 |-------------------|----------------|------------------|--------|-----------------|------------------|---------------|----------|----------|--------|-----------|
-| Instance 1        | Adam           | L2               | 30     | Yes             | 3                | 0.001         | 0.9813   | 0.9813   | 0.9813 | 0.9839    |
-| Instance 2        | RMSProp        | L1               | 50     | No              | 4                | 0.0005        | 0.8628   | 0.8610   | 0.8149 | 0.9013    |
-| Instance 3        | Adam           | L2               | 40     | Yes             | 3                | 0.0001        | 0.9800   | 0.9800   | 0.9800 | 0.9803    |
-| Instance 4        | RMSProp        | L1               | 100    | No              | 2                | 0.005         | 0.3688   | 0.3398   | 0.3688 | 0.3855    |
+| Instance 1        | Adam           | -                | 250    | No              | 3                | 0.001         | 0.9813   | 0.9813   | 0.9813 | 0.9839    |
+| Instance 2        | RMSProp        | L1               | 250    | No              | 4                | 0.0005        | 0.8628   | 0.8610   | 0.8149 | 0.9013    |
+| Instance 3        | Adam           | L2               | 250    | Yes             | 3                | 0.0001        | 0.9800   | 0.9800   | 0.9800 | 0.9803    |
+| Instance 4        | RMSProp        | L1               | 250    | No              | 2                | 0.005         | 0.3688   | 0.3398   | 0.3688 | 0.3855    |
 
 
 # <h3>Summary</h3>
