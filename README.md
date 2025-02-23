@@ -37,3 +37,13 @@ Data can be found https://www.kaggle.com/datasets/pavanbodanki/blood-press
 | 0.5     | L2      | lbfgs   | 100           | 0.6967   | 0.6980    | 0.6967 | 0.7018   |
 
 # <h3>Summary</h3>
+The training process was quite hectic,having overfitting models and try to adjust parameters to improve accuracy. The process involved using neural network and traditional machine Learning algorithm.
+
+In training the neural network, there were four(4) instances using different optimizers, varied number of layers including Dropout layers  to build complex model architecture to effectively learn patterns in data and regularisers as shown in the table above. In all the instances; Instance 2 which used Stochastic Gradient Descent(SGD), L1 regulariser, Dropout and binary cross entropy was my  best model with an accuracy of 0.8767.This model recorded the lowest test loss of 0.3795 among all the four(4) instances. From the confusion matrix, the model was also able to correctly predict the classes  as shown here;[
+149  22  
+15   114  
+] This model was initially overfitting but with the introduction of the l1 regualriser; it helped ignore less important features and keeping the important ones to prevent the model from overfitting. The use of the SGD optimizer enabled faster convergence by applying gradient updates efficiently to able to make accurate predictions.
+
+The traditional Machine Learning algorithm I used was Logistic Regression making use of the hyperparameters as shown the table above. The accuracy was low because the Logistic regression model was not able to learn the patterns very well as it is only learning the linear relations. Comparing the ML algorithm and the neural network , the Neural network performed way better because it is able to learn the non-linear relationships to correctly make predictions and with the use of optimizers and regularisers ; preventing feature selection and avoiding overfitting.
+
+# Video Presentation
