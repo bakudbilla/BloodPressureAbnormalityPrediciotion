@@ -30,5 +30,10 @@ Data can be found https://www.kaggle.com/datasets/pavanbodanki/blood-press
 | Instance 3      | RMSProp       | L2             | 250    | Yes            | 4              | 0.0001      | 0.3      | 0.8233  | 0.8242  | 0.8233 | 0.8317    |
 | Instance 4      | AdamW         | L1_L2          | 250    | Yes            | 4              | 0.0005      | 0.3      | 0.8733  | 0.8736  | 0.8733 | 0.8741    |
 
+## Logistic Regression Model Summary
+
+| C Value | Penalty | Solver  | Max Iterations | Accuracy | Precision | Recall | F1 Score |
+|---------|---------|---------|---------------|----------|-----------|--------|----------|
+| 0.5     | L2      | lbfgs   | 100           | 0.6967   | 0.6980    | 0.6967 | 0.7018   |
 
 # <h3>Summary</h3>
