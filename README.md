@@ -44,3 +44,4 @@ In training the neural network, there were four(4) instances using different opt
 The traditional Machine Learning algorithm I used was Logistic Regression making use of the hyperparameters as shown the table above. The accuracy was low because the Logistic regression model was not able to learn the patterns very well as it is only learning the linear relations. Comparing the ML algorithm and the neural network , the Neural network performed way better because it is able to learn the non-linear relationships to correctly make predictions and with the use of optimizers and regularisers ; preventing feature selection and avoiding overfitting.
 
 # Video Presentation
+https://youtu.be/p2zM0mAoTwU?si=Pfh7fL3AsE_qBXLT
