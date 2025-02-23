@@ -21,12 +21,14 @@ Data can be found https://www.kaggle.com/datasets/pavanbodanki/blood-press
 
 # <h3>Summary Table</h3>
 
-| Training Instance | Optimizer Used | Regularizer Used | Epochs | Early Stopping | Number of Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
-|-------------------|----------------|------------------|--------|-----------------|------------------|---------------|----------|----------|--------|-----------|
-| Instance 1        | Adam           | -                | 250    | No              | 3                | 0.001         | 0.9813   | 0.9813   | 0.9813 | 0.9839    |
-| Instance 2        | RMSProp        | L1               | 250    | No              | 4                | 0.0005        | 0.8628   | 0.8610   | 0.8149 | 0.9013    |
-| Instance 3        | Adam           | L2               | 250    | Yes             | 3                | 0.0001        | 0.9800   | 0.9800   | 0.9800 | 0.9803    |
-| Instance 4        | RMSProp        | L1               | 250    | No              | 2                | 0.005         | 0.3688   | 0.3398   | 0.3688 | 0.3855    |
+## Model Training Instances
+
+| Training Instance | Optimizer Used | Regularizer Used | Epochs | Early Stopping | Number of Layers | Learning Rate | Dropout | Accuracy | F1 Score | Recall | Precision |
+|------------------|---------------|----------------|--------|---------------|----------------|--------------|---------|---------|---------|--------|-----------|
+| Instance 1      | Adam          | -              | 250    | No             | 3              | 0.0001      | 0.35     | 0.8167  | 0.8161  | 0.8166 | 0.8161    |
+| Instance 2      | SGD           | L1             | 250    | Yes            | 4              | 0.001       | 0.3      | 0.8767  | 0.8770  | 0.8767 | 0.8783    |
+| Instance 3      | RMSProp       | L2             | 250    | Yes            | 4              | 0.0001      | 0.3      | 0.8233  | 0.8242  | 0.8233 | 0.8317    |
+| Instance 4      | AdamW         | L1_L2          | 250    | Yes            | 4              | 0.0005      | 0.3      | 0.8733  | 0.8736  | 0.8733 | 0.8741    |
 
 
 # <h3>Summary</h3>
